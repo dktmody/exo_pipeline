@@ -1,12 +1,12 @@
 name: GitHub Actions Demo
 on: [push]
 jobs:
-  Explore-GitHub-Actions:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
-      - run: echo "Je suis md"
-      - run: Check out repository code
-        uses: actions/checkout@v4
-      - run: ls -la
-      - run: node hello.js
+    Explore-GitHub-Actions:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
+            - run: echo "Je suis md"
+            - run: Check out repository code
+            uses: actions/checkout@v4
+            - run: ls -la
+            - run: node hello.js
