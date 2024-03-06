@@ -6,7 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: ls -la
-      - run: Check out repository code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
       - run: ls -la
       - run: node hello.js
