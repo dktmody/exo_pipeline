@@ -8,4 +8,5 @@ jobs:
       - run: ls -la
       - uses: actions/checkout@v4
       - run: ls -la
-      - run: node hello.js
+      - run: npm install
+      - run: npm test
